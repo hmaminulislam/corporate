@@ -271,7 +271,7 @@ body {
 .service-box {
     flex-basis: 30%;
     text-align: center;
-    box-shadow: 0 5px 10px #c5c5c556;
+    box-shadow: 5px 5px 10px #dadada7a;
     padding-bottom: 20px;
 }
 .service-box img {
@@ -294,4 +294,70 @@ body {
 }
 .service-box a:hover {
     color: #F75E15;
+}
+#counter {
+    background-image: url(images/p5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+}
+.counter-overley {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.938);
+}
+.counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60vh;
+}
+.counter-box {
+    flex-basis: 23%;
+    text-align: center;
+    background: #fff;
+}
+.counter-box i {
+    color: #F75E15;
+    font-size: 45px;
+    padding-top: 33px;
+}
+.counter-box h2 {
+    font-size: 40px;
+    line-height: 12px;
+    color: #3d3d3d;
+}
+.counter-box p {
+    margin-bottom: 30px;
+}
+#project {
+    padding: 100px 0;
+}
+.project-title {
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+}
+.project-title h2 {
+    font-size: 40px;
+    color: #7a7676;
+    line-height: 20px;
+}
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.project-box {
+    flex-basis: 31%;
+    margin-top: 40px;
+}
+.project-box img {
+    width: 100%;
 }

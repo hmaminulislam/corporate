@@ -46,3 +46,38 @@ body {
     background: #161414;
     color: #F75E15;
 }
+#menu {
+    background: #F75E15;
+}
+.menu-logo {
+    display: flex;
+    justify-content: space-between;
+    height: 115px;
+    align-items: center;
+}
+.logo {
+    flex-basis: 20%;
+}
+.menu {
+    flex-basis: 70%;
+}
+.menu ul {
+    text-align: right;
+}
+.menu ul li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+}
+.menu ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #fff;
+}
+.menu ul li i {
+    background: #fff;
+    padding: 13px;
+    color: #F75E15;
+    cursor: pointer;
+}

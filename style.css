@@ -247,3 +247,51 @@ body {
 .since-box p {
     font-size: 17px;
 }
+#services {
+    padding: 100px 0;
+}
+.services-title {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.services-title h2 {
+    color: #414040;
+    font-size: 40px;
+    line-height: 25px;
+}
+.services-title p {
+    color: #8f8e8e;
+}
+.services {
+    display: flex;
+    justify-content: space-between;
+}
+.service-box {
+    flex-basis: 30%;
+    text-align: center;
+    box-shadow: 0 5px 10px #c5c5c556;
+    padding-bottom: 20px;
+}
+.service-box img {
+    width: 100%;
+}
+.service-box h4 {
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #4e4c4c;
+}
+.service-box p {
+    color: #555657;
+}
+.service-box a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    color: #464545;
+}
+.service-box a:hover {
+    color: #F75E15;
+}

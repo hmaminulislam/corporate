@@ -196,3 +196,54 @@ body {
 .tion-box:hover h4 {
     color: #fff;
 }
+.since {
+    display: flex;
+    padding: 100px 0;
+    justify-content: space-between;
+}
+.since-right {
+    flex-basis: 50%;
+}
+.since-left {
+    flex-basis: 40%;
+}
+.since-left img {
+    width: 100%;
+}
+.since-right h3 {
+    font-size: 30px;
+    color: #161414;
+}
+.since-right span {
+    color: #F75E15;
+}
+.since-right p {
+    font-size: 18px;
+    color: #8f8e8e;
+}
+.since-item {
+    display: flex;
+}
+.since-box {
+    flex-basis: 48%;
+}
+.since-box i {
+    display: inline-block;
+    color: #F75E15;
+    font-size: 50px;
+}
+.since-box h5 {
+    display: inline-block;
+    font-size: 19px;
+    color: #8f8e8e;
+    margin-left: 15px;
+    font-weight: 500;
+    line-height: 0;
+}
+.since-box-icon {
+    display: flex;
+    align-items: center;
+}
+.since-box p {
+    font-size: 17px;
+}
